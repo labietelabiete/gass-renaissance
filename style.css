@@ -83,6 +83,12 @@ main {
   );
   border-radius: 2rem;
 }
+
+.profile-picture{
+  max-width: 90px;
+}
+
+
 .link {
   display: flex;
   margin: 2rem 0rem 0rem;
@@ -106,9 +112,11 @@ main {
 
 .pro img {
   position: absolute;
-  top: -15%;
-  right: 10%;
+  top: 10%;
+  right: 15%;
+  max-width: 70px;
 }
+
 .pro h2 {
   width: 40%;
   color: white;
@@ -127,7 +135,7 @@ main {
     rgba(255, 255, 255, 0.3)
   );
   border: none;
-  width: 50%;
+  width: 80%;
   padding: 0.5rem;
   border-radius: 2rem;
 }
@@ -168,8 +176,19 @@ main {
   background: rgb(236, 236, 236);
   position: absolute;
   left: 60%;
-  /* border-right-radius: 1rem; */
 }
+
+.progress-davinci::after{
+  left: 30%;
+}
+.progress-caravaggio::after{
+  left: 60%;
+}
+.progress-raffaello::after{
+  left: 100%;
+}
+
+
 
 .card-info{
   display: flex;
