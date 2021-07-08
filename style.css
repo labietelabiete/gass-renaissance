@@ -95,8 +95,12 @@ main {
   padding: 1rem 5rem;
   align-items: center;
 }
+.link img{
+  width:40px;
+}
+
 .link h2 {
-  padding: 0rem 2rem;
+  padding-left: 1rem;
 }
 .games {
   flex: 2;
@@ -106,6 +110,7 @@ main {
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   border-radius: 2rem;
   color: white;
+  width: 70%;
   padding: 1rem;
   position: relative;
 }
@@ -115,6 +120,7 @@ main {
   top: 10%;
   right: 15%;
   max-width: 70px;
+  border-radius: 1rem;
 }
 
 .pro h2 {
